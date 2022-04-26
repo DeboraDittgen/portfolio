@@ -1,0 +1,97 @@
+.section-contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+  }
+  
+  .contact-wrapper {
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-left {
+    width: 15%;
+    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
+      url(img/contact1.jpg);
+    background-size: cover;
+  }
+  
+  .contact-right {
+    width: 75%;
+    background-color: #eee;
+    padding: 1rem 3rem 3rem 3rem;
+  }
+  
+  .section-contact h1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    color: #556270;
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+
+  .section-contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .field {
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+    border-bottom: 2px dashed #556270;
+    height: 3rem;
+    outline: none;
+    margin: 1rem 0;
+  }
+  
+  .input-group textarea {
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
+  }
+  
+  .field-label {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  
+  .field:focus ~ label {
+    top: 0;
+    font-size: 0.7rem;
+  }
+
+  .btn-submit{
+    width: 75%;
+    height: 1.5rem;
+    font-family: var(--font-action);
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    background-color: #4ECDC4;  
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+    background: linear-gradient(to right, #556270, #4ECDC4);
+    margin-bottom: 10rem;
+  }
+  
+  

@@ -7,7 +7,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/knowledge.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -19,6 +22,7 @@
         </div>
         <header>
             <div class="img-wrapper">
+                <!--Website img:https://unsplash.com/-->
                 <img src="img/bg1.jpg" alt="">
             </div>
             <div class="banner">
@@ -28,23 +32,153 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Knowledge</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Page principale</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Connaissance</a></li>
                     <li class="menu-item"><a href="" class="menu-link">Projects</a></li>
                     <li class="menu-item"><a href="" class="menu-link">Contact</a></li>
                 </ul>
             </nav>
+            <!--Website icons: https://fontawesome.com/icons-->
             <div class="social-media">
                 <a href=""><i class="fab fa-linkedin"></i></a>
                 <a href=""><i class="fab fa-github-square"></i></a>
                 <a href=""><i class="fab fa-twitter-square"></i></a>
             </div>
-        </div>
-    </div>      
+        </aside>
+<!--Section Knowleged-->
+
+        <section class="section-knowledge" id="knowledge1">
+            <div class="section-header">
+                <h1>Connaissance</h1>
+            </div>
+            <div class="knowledge1">
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Boostrap</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="knowledge">
+                    <div class="knowledge-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="knowledge-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                    </div>
+                </div>
+            
+                <div class="knowledge-img-wrapper">
+                    <img src="img/knowledge.jpg" alt="imagem conhecimento">
+                </div>
+        
+            </div>
+        </section>
+
+<!--Section Projects-->
+        <section class="section-projects">
+            
+            <div class="section-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="projects">
+                <div class="cardProj">
+                    <div class="card-img-wrapper">
+                        <img src="img/proj1.jpg" alt="First project" />
+                    </div>
+                    <div class="card-info">
+                        <h2>DDCustomers</h2>
+                        <h3>Customer registration</h3>
+                        <p>Project used framework: String; Back-end: Java; Front-end: HTML</p>
+                        <button>More</button>
+                    </div>
+                </div>
+
+                <div class="cardProj">
+                    <div class="card-img-wrapper">
+                        <img src="img/proj2.jpg" alt="Second project" />
+                    </div>
+                    <div class="card-info">
+                        <h2>Recipe Book</h2>
+                        <h3>Recipe website</h3>
+                        <p>Project lalalallalalalalallalalalallalalalal</p>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Section Contact-->
+
+        <section class="section-contact" id="contact">
+            <div class="contact-wrapper">
+                <div class="contact-left">
+                </div>
+                <div class="contact-right">
+                    <h1>Contact</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mesage"></textarea>
+                            <label for="menage" class="field-label">Mesage</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
 </body>
+
 
 <script src="script.js"></script>
 </html>
