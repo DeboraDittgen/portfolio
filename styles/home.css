@@ -10,6 +10,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 /*variables*/
 :root{
     --font-primary: "Baloo Da 2", serif;
@@ -128,6 +129,8 @@ header{
     transition: 1s;
     opacity: 0.6;
     border-radius: 2%;
+    z-index: 150;
+
 }
 /*class I use with JS*/
 .show-menu .sidebar{
@@ -185,3 +188,41 @@ header{
 }
 
 /**************************************************/
+
+.footer{
+    width: 100%;
+    height: 8rem;
+    background-color: #556270;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 1rem;
+    color: #4ECDC4;
+    font-size: 1.5rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+#link-top{
+    position: fixed;right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    color: #4ECDC4;
+}

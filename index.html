@@ -20,7 +20,7 @@
             <div class="line" id="line2"></div>
             <div class="line" id="line3"></div>
         </div>
-        <header>
+        <header id="page_principale">
             <div class="img-wrapper">
                 <!--Website img:https://unsplash.com/-->
                 <img src="img/bg1.jpg" alt="">
@@ -35,10 +35,10 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Page principale</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Connaissance</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Projects</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contact</a></li>
+                    <li class="menu-item"><a href="#page_principale" class="menu-link">Page principale</a></li>
+                    <li class="menu-item"><a href="#knowledge1" class="menu-link">Connaissance</a></li>
+                    <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>
+                    <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
                 </ul>
             </nav>
             <!--Website icons: https://fontawesome.com/icons-->
@@ -118,7 +118,7 @@
         </section>
 
 <!--Section Projects-->
-        <section class="section-projects">
+        <section class="section-projects" id="projects">
             
             <div class="section-header">
                 <h1>Projects</h1>
@@ -148,6 +148,7 @@
                     </div>
                 </div>
             </div>
+            
         </section>
 
 <!--Section Contact-->
@@ -175,10 +176,26 @@
                     </form>
                 </div>
             </div>
+           
         </section>
-        
-</body>
 
+        <footer class="footer">
+            <div class="footer-content">
+                <p>copyright &copy: 2022</p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fab fa-github-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                    </ul>
+                </div>  
+            </div>
+        </footer>
+        <a href="#page_principale" id="link-top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+    </div>   
+</body>
 
 <script src="script.js"></script>
 </html>
